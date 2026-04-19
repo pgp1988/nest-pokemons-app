@@ -15,7 +15,7 @@ import { JoiValidationSchema } from './config/joi.validation';
   ConfigModule.forRoot({
     isGlobal: true,
     //load:[EnvConfiguration],
-    validationSchema: JoiValidationSchema,
+    //validationSchema: JoiValidationSchema,
   }),
   ServeStaticModule.forRoot({
   rootPath: join(__dirname,'..','public'),
